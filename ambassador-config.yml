@@ -1,0 +1,60 @@
+---
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: groom-service-metadata
+  namespace: ambassador
+spec:
+  prefix: /groom/
+  service: groom-service
+
+---
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: user-auth-metadata
+  namespace: ambassador
+spec:
+  prefix: /user-auth/
+  service: user-auth
+
+---
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: details-metadata
+  namespace: ambassador
+spec:
+  prefix: /details/
+  service: details
+
+
+---
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: ratings-metadata
+  namespace: ambassador
+spec:
+  prefix: /ratings/
+  service: ratings
+
+---
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: reviews-metadata
+  namespace: ambassador
+spec:
+  prefix: /reviews/
+  service: reviews
+
+---
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: productpage-metadata
+  namespace: ambassador
+spec:
+  prefix: /productpage/
+  service: productpage

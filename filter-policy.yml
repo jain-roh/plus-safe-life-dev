@@ -1,0 +1,16 @@
+---
+apiVersion: getambassador.io/v2
+kind: FilterPolicy
+metadata:
+  name: "example-filter-policy"
+  namespace: "ambassador"
+spec:
+  rules:
+  - host: "*"
+    path: "/productpage/*"
+    filters:
+    - name: "authentication-jwt-filter"
+      arguments:
+        scopes:                    # optional; default is []
+        - "scope-value-1"
+        - "scope-value-2"

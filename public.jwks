@@ -1,6 +1,7 @@
------BEGIN PUBLIC KEY-----
-MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgHxpjxW8jmLguTaAgoXSeOaL9Tp3
-MpwHGMRx7vz5ECKtDkgmu/C0evHJOOmXMLOwv9PyrXdJ9UEhG2tQaxJgW3YvPwPB
-IRL25JSKlrlDuD3IL1U+PqFGoKf9EbCk6jXQDFmJDrNee9s5iHp8PSbMD4dv/2VJ
-45cw0poaCFEh8PTnAgMBAAE=
------END PUBLIC KEY-----
+{
+  "kty": "RSA",
+  "n": "fGmPFbyOYuC5NoCChdJ45ov1OncynAcYxHHu_PkQIq0OSCa78LR68ck46Zcws7C_0_Ktd0n1QSEba1BrEmBbdi8_A8EhEvbklIqWuUO4PcgvVT4-oUagp_0RsKTqNdAMWYkOs1572zmIenw9JswPh2__ZUnjlzDSmhoIUSHw9Oc",
+  "e": "AQAB",
+  "alg": "RS256",
+  "use": "sig"
+}
